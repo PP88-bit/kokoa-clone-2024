@@ -6,6 +6,10 @@
   display: flex;
   align-items: center;
 }
+.user-component__alert {
+  display: flex;
+  align-items: center;
+}
 .user-component__avatar {
   width: 70px;
   height: 70px;
@@ -17,9 +21,18 @@
   font-weight: 600;
 }
 .user-component__subtitle {
+  display: flex;
   font-size: 16px;
   margin-top: 5px;
+}
+.user-component__subtitle h6,
+.user-component h6 {
   opacity: 55%;
+}
+.user-component__alert {
+  margin-left: 5px;
+  color: tomato;
+  opacity: 100%;
 }
 .user-component__avatar--xl {
   width: 80px;
