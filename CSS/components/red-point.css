@@ -1,0 +1,13 @@
+.fa-gear {
+  position: relative;
+}
+
+.red-point {
+  background-color: tomato;
+  width: 5px;
+  height: 5px;
+  border-radius: 100%;
+  position: absolute;
+  top: 48px;
+  right: 17px;
+}
